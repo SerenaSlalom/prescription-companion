@@ -8,9 +8,10 @@ import TopBar from "../components/TopBar.vue";
 import PillButton from "../components/PillButton.vue";
 import IconButton from "../components/IconButton.vue";
 import FeelingBadge from "../components/FeelingBadge.vue";
+import AdherenceCalendar from "../components/AdherenceCalendar.vue";
 
 const router = useRouter();
-const { activeMedications, isTakenToday, todaysLogEntry, isOverdue, streakFor } = useAppState();
+const { activeMedications, isTakenToday, todaysLogEntry, isOverdue, streakFor, adherenceCalendar } = useAppState();
 
 const dateLabel = computed(() => formatFullDate(new Date()));
 
@@ -22,6 +23,11 @@ const allTaken = computed(
 const primaryStreak = computed(() => {
   const first = activeMedications.value[0];
   return first ? streakFor(first.id) : 0;
+});
+
+const primaryMonth = computed(() => {
+  const first = activeMedications.value[0];
+  return first ? adherenceCalendar(first.id, 30) : [];
 });
 
 function goToCheckIn(medicationId: string) {
@@ -78,7 +84,8 @@ function goToCheckIn(medicationId: string) {
       <div class="spectrum-band">
         <p class="label">Adherence streak</p>
         <p class="display-lg today__streak-count">{{ primaryStreak }} {{ primaryStreak === 1 ? "day" : "days" }}</p>
-        <p class="body-sm">Keep it going — consistency is what makes this medication work.</p>
+        <p class="body-sm today__streak-copy">Keep it going — consistency is what makes this medication work.</p>
+        <AdherenceCalendar :days="primaryMonth" class="today__calendar" />
       </div>
     </section>
   </div>
@@ -123,5 +130,13 @@ function goToCheckIn(medicationId: string) {
 
 .today__streak-count {
   margin-top: var(--space-xs);
+}
+
+.today__streak-copy {
+  margin-bottom: 0;
+}
+
+.today__calendar {
+  margin-top: var(--space-lg);
 }
 </style>

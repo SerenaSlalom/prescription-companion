@@ -94,6 +94,16 @@ export function useAppState() {
     return count;
   }
 
+  function adherenceCalendar(medicationId: string, days: number): { date: Date; taken: boolean; isToday: boolean }[] {
+    const today = startOfDay(new Date());
+    const result: { date: Date; taken: boolean; isToday: boolean }[] = [];
+    for (let offset = days - 1; offset >= 0; offset -= 1) {
+      const date = addDays(today, -offset);
+      result.push({ date, taken: hasLogOnDay(medicationId, date), isToday: offset === 0 });
+    }
+    return result;
+  }
+
   function isOverdue(medication: Medication): boolean {
     if (medication.scheduleTimes.length === 0) return false;
     if (isTakenToday(medication.id)) return false;
@@ -134,6 +144,7 @@ export function useAppState() {
     todaysLogEntry,
     isTakenToday,
     streakFor,
+    adherenceCalendar,
     isOverdue,
     recordDose,
     completeOnboarding,
