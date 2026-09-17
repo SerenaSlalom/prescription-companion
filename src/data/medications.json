@@ -1,0 +1,355 @@
+[
+  {
+    "id": "serenolex",
+    "name": "Serenolex",
+    "genericName": "sertralex",
+    "aliases": [
+      "Sertralex",
+      "SNX-50"
+    ],
+    "category": "Mood & anxiety support",
+    "dosage": "50mg, once daily in the morning",
+    "scheduleTimes": [
+      "08:00"
+    ],
+    "activeRegimen": true,
+    "appearances": [
+      {
+        "manufacturer": "Meridian Pharma (brand)",
+        "shape": "oval",
+        "color": "pale blue",
+        "imprint": "SNX 50",
+        "description": "A small pale-blue oval tablet, scored down the middle on one side, imprinted \"SNX 50\"."
+      },
+      {
+        "manufacturer": "Altus Generics",
+        "shape": "round",
+        "color": "white",
+        "imprint": "54 292",
+        "description": "A round, unscored white tablet, slightly smaller than the brand version, imprinted \"54 292\"."
+      },
+      {
+        "manufacturer": "Harborview Labs",
+        "shape": "round",
+        "color": "off-white with a faint yellow tint",
+        "imprint": "HV 50",
+        "description": "A round tablet with a slightly warmer, off-white tone, imprinted \"HV 50\" in small type."
+      }
+    ],
+    "sideEffects": [
+      "Mild nausea in the first 1-2 weeks",
+      "Drowsiness or vivid dreams",
+      "Dry mouth",
+      "Slight decrease in appetite",
+      "Headache when starting or adjusting dose"
+    ],
+    "interactions": [
+      {
+        "with": "Alcohol",
+        "severity": "caution",
+        "note": "Can intensify drowsiness and dull emotional side effects tend to feel stronger \u2014 most people do best keeping intake light."
+      },
+      {
+        "with": "Duskatrol",
+        "severity": "avoid",
+        "note": "Combining with this sleep aid can compound sedation more than either alone. Space doses out and check with a prescriber."
+      },
+      {
+        "with": "Ferravix",
+        "severity": "monitor",
+        "note": "No major concern, but taking together on an empty stomach can worsen nausea for some people."
+      }
+    ]
+  },
+  {
+    "id": "duskatrol",
+    "name": "Duskatrol",
+    "genericName": "zolvidrine",
+    "aliases": [
+      "Zolvidrine",
+      "DZ-10"
+    ],
+    "category": "Sleep support",
+    "dosage": "10mg, at bedtime as needed",
+    "scheduleTimes": [],
+    "appearances": [
+      {
+        "manufacturer": "Meridian Pharma (brand)",
+        "shape": "capsule",
+        "color": "deep navy and light grey",
+        "imprint": "DZ10",
+        "description": "A two-tone navy-and-grey capsule, imprinted \"DZ10\" along the grey half."
+      },
+      {
+        "manufacturer": "Altus Generics",
+        "shape": "capsule",
+        "color": "light grey",
+        "imprint": "10",
+        "description": "A solid light-grey capsule imprinted simply with \"10\"."
+      }
+    ],
+    "sideEffects": [
+      "Next-day grogginess",
+      "Dry mouth",
+      "Unusual dreams",
+      "Occasional dizziness on standing up quickly"
+    ],
+    "interactions": [
+      {
+        "with": "Alcohol",
+        "severity": "avoid",
+        "note": "Significantly increases sedation and next-morning grogginess. Not recommended together."
+      },
+      {
+        "with": "Serenolex",
+        "severity": "avoid",
+        "note": "Combining with this mood support medication can compound sedation more than either alone. Space doses out and check with a prescriber."
+      }
+    ],
+    "activeRegimen": false
+  },
+  {
+    "id": "cardiavelle",
+    "name": "Cardiavelle",
+    "genericName": "lisinovex",
+    "aliases": [
+      "Lisinovex",
+      "LV-10"
+    ],
+    "category": "Blood pressure support",
+    "dosage": "10mg, once daily",
+    "scheduleTimes": [
+      "08:00"
+    ],
+    "appearances": [
+      {
+        "manufacturer": "Meridian Pharma (brand)",
+        "shape": "round",
+        "color": "soft pink",
+        "imprint": "LV 10",
+        "description": "A small round, soft-pink tablet, scored on one side, imprinted \"LV 10\"."
+      },
+      {
+        "manufacturer": "Altus Generics",
+        "shape": "round",
+        "color": "white",
+        "imprint": "L10",
+        "description": "A round white tablet imprinted \"L10\" in a slightly larger typeface than the brand."
+      }
+    ],
+    "sideEffects": [
+      "Dry, tickly cough",
+      "Lightheadedness when standing quickly",
+      "Mild fatigue",
+      "Headache"
+    ],
+    "interactions": [
+      {
+        "with": "Alcohol",
+        "severity": "monitor",
+        "note": "Can add to lightheadedness, especially when standing up. Stay hydrated and rise slowly."
+      },
+      {
+        "with": "Potassium supplements",
+        "severity": "caution",
+        "note": "Can raise potassium levels higher than expected together. Worth mentioning to a prescriber before combining."
+      }
+    ],
+    "activeRegimen": false
+  },
+  {
+    "id": "ferravix",
+    "name": "Ferravix",
+    "genericName": "ferrous glycate",
+    "aliases": [
+      "Iron Glycate",
+      "FG-65"
+    ],
+    "category": "Iron supplement",
+    "dosage": "65mg, once daily with food",
+    "scheduleTimes": [
+      "12:30"
+    ],
+    "appearances": [
+      {
+        "manufacturer": "Meridian Pharma (brand)",
+        "shape": "oval",
+        "color": "dark green",
+        "imprint": "FG65",
+        "description": "A dark-green, glossy-coated oval tablet imprinted \"FG65\"."
+      },
+      {
+        "manufacturer": "Altus Generics",
+        "shape": "round",
+        "color": "brownish red",
+        "imprint": "none",
+        "description": "A plain, uncoated brownish-red round tablet with no imprint."
+      }
+    ],
+    "sideEffects": [
+      "Stomach upset if taken without food",
+      "Darker stools (expected, not concerning)",
+      "Mild constipation",
+      "Metallic aftertaste"
+    ],
+    "interactions": [
+      {
+        "with": "Coffee or tea",
+        "severity": "monitor",
+        "note": "Can reduce how much iron your body absorbs. Best spaced an hour or two apart from either."
+      },
+      {
+        "with": "Serenolex",
+        "severity": "monitor",
+        "note": "No major concern, but taking together on an empty stomach can worsen nausea for some people."
+      }
+    ],
+    "activeRegimen": false
+  },
+  {
+    "id": "allerlum",
+    "name": "Allerlum",
+    "genericName": "cetiravine",
+    "aliases": [
+      "Cetiravine",
+      "AL-10"
+    ],
+    "category": "Allergy relief",
+    "dosage": "10mg, once daily as needed",
+    "scheduleTimes": [],
+    "appearances": [
+      {
+        "manufacturer": "Meridian Pharma (brand)",
+        "shape": "round",
+        "color": "pale yellow",
+        "imprint": "AL 10",
+        "description": "A small, pale-yellow, film-coated round tablet imprinted \"AL 10\"."
+      },
+      {
+        "manufacturer": "Altus Generics",
+        "shape": "round",
+        "color": "white",
+        "imprint": "C10",
+        "description": "A round white tablet, slightly chalkier in texture, imprinted \"C10\"."
+      }
+    ],
+    "sideEffects": [
+      "Mild drowsiness",
+      "Dry mouth",
+      "Headache",
+      "Fatigue in some people"
+    ],
+    "interactions": [
+      {
+        "with": "Alcohol",
+        "severity": "monitor",
+        "note": "May increase drowsiness slightly more than either alone."
+      },
+      {
+        "with": "Duskatrol",
+        "severity": "caution",
+        "note": "Both can cause drowsiness, so combining may leave you groggier than expected the next morning."
+      }
+    ],
+    "activeRegimen": false
+  },
+  {
+    "id": "glucavane",
+    "name": "Glucavane",
+    "genericName": "metforalin",
+    "aliases": [
+      "Metforalin",
+      "MF-500"
+    ],
+    "category": "Blood sugar support",
+    "dosage": "500mg, twice daily with meals",
+    "scheduleTimes": [
+      "08:00",
+      "18:30"
+    ],
+    "appearances": [
+      {
+        "manufacturer": "Meridian Pharma (brand)",
+        "shape": "oblong",
+        "color": "white",
+        "imprint": "MF 500",
+        "description": "A large white oblong tablet, film-coated, imprinted \"MF 500\"."
+      },
+      {
+        "manufacturer": "Altus Generics",
+        "shape": "oblong",
+        "color": "off-white",
+        "imprint": "500",
+        "description": "A slightly smaller off-white oblong tablet imprinted just \"500\"."
+      }
+    ],
+    "sideEffects": [
+      "Stomach upset, especially early on",
+      "Mild nausea",
+      "Metallic taste",
+      "Loss of appetite"
+    ],
+    "interactions": [
+      {
+        "with": "Alcohol",
+        "severity": "caution",
+        "note": "Heavier drinking can affect blood sugar control and increase the chance of stomach upset."
+      },
+      {
+        "with": "Contrast dye (for imaging)",
+        "severity": "avoid",
+        "note": "Typically paused before and after imaging procedures that use contrast dye \u2014 flag this medication to any imaging staff."
+      }
+    ],
+    "activeRegimen": false
+  },
+  {
+    "id": "thyronorm",
+    "name": "Thyronorm",
+    "genericName": "levothyravine",
+    "aliases": [
+      "Levothyravine",
+      "LT-75"
+    ],
+    "category": "Thyroid support",
+    "dosage": "75mcg, once daily on an empty stomach",
+    "scheduleTimes": [
+      "07:00"
+    ],
+    "appearances": [
+      {
+        "manufacturer": "Meridian Pharma (brand)",
+        "shape": "round",
+        "color": "lilac",
+        "imprint": "LT 75",
+        "description": "A small, light-lilac round tablet imprinted \"LT 75\", noticeably thin."
+      },
+      {
+        "manufacturer": "Altus Generics",
+        "shape": "round",
+        "color": "peach",
+        "imprint": "75",
+        "description": "A round, peach-colored tablet imprinted just \"75\" \u2014 a different color-coding convention than the brand."
+      }
+    ],
+    "sideEffects": [
+      "Jitteriness if the dose runs slightly high",
+      "Trouble sleeping",
+      "Increased appetite",
+      "Rarely, a fast heartbeat"
+    ],
+    "interactions": [
+      {
+        "with": "Coffee",
+        "severity": "caution",
+        "note": "Can reduce absorption significantly if taken too close together. Best to wait at least 30-60 minutes."
+      },
+      {
+        "with": "Calcium or iron supplements",
+        "severity": "caution",
+        "note": "Both can block absorption. Space doses at least four hours apart."
+      }
+    ],
+    "activeRegimen": false
+  }
+]

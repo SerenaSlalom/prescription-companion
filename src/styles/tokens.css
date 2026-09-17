@@ -1,0 +1,81 @@
+/* ============================================================
+   Design tokens — adapted from the Meridian design system
+   for a calm, mobile-first health companion context.
+   ============================================================ */
+
+:root {
+  /* Color */
+  --color-primary: #141412; /* Ink */
+  --color-secondary: #6e6a5f; /* Muted */
+  --color-tertiary: #1b1a16; /* Charcoal */
+  --color-tertiary-top: #242320; /* Charcoal lift */
+  --color-neutral: #c9c4b7; /* On-dark body */
+  --color-surface: #f3f1e9; /* Paper */
+  --color-surface-raised: #fbfaf5;
+  --color-on-surface: #141412;
+  --color-on-inverse: #fbfaf5;
+  --color-border: #e1ddd1; /* Hairline */
+  --color-focus: #141412;
+  --color-error: #a6432c;
+
+  /* Spectrum — reserved strictly for the adherence streak band
+     and the feeling trend visualization. Never used elsewhere. */
+  --spectrum-rose: #f3c9d8;
+  --spectrum-mint: #c8e6c4;
+  --spectrum-sky: #bcd9ef;
+  --spectrum-lilac: #dac9ec;
+  --spectrum-butter: #f0e4b8;
+
+  /* Typography */
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-ui: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --text-display-xl: 2.75rem;
+  --text-display-lg: 2.125rem;
+  --text-headline-lg: 1.5rem;
+  --text-headline-md: 1.1875rem;
+  --text-body-lg: 1.0625rem;
+  --text-body-md: 0.9375rem;
+  --text-body-sm: 0.8125rem;
+  --text-label-md: 0.875rem;
+  --text-label-sm: 0.75rem;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-band: 28px;
+  --radius-full: 999px;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+  --gutter: 16px;
+  --width-column: 480px;
+
+  /* Elevation */
+  --shadow-card: 0 1px 0 rgba(20, 20, 18, 0.04), 0 1px 2px rgba(20, 20, 18, 0.05);
+  --shadow-lift: 0 1px 1px rgba(20, 20, 18, 0.06), 0 8px 18px rgba(20, 20, 18, 0.1),
+    0 22px 48px rgba(20, 20, 18, 0.14);
+
+  /* Focus */
+  --focus-ring: 0 0 0 2px var(--color-surface), 0 0 0 4px var(--color-focus);
+
+  --transition: 150ms ease;
+
+  /* Text-size accessibility toggle multiplies this scale */
+  --text-scale: 1;
+
+  /* Bottom nav height, used to pad scroll content */
+  --bottom-nav-height: 76px;
+}
+
+/* Larger text-size mode, toggled via a class on <html> */
+html.text-large {
+  --text-scale: 1.18;
+}
